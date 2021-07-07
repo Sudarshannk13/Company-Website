@@ -1,0 +1,48 @@
+#hero {
+background: url('assets/img (2).jpg');
+height: 1079px;
+background-position-x: center;
+background-size: cover;
+}
+
+#hero .navbar-is-transperent {
+    background-color: transparent;
+}
+
+.service-buttons {
+    justify-content: center !important;
+}
+
+.logos:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 0;
+    border-top: 1px solid #eebbee;
+}
+
+.button is-warning{
+      background-color: #4CAF50;
+      border: 10px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+}
+
+#contact {
+    background: url('assets/contact-bg.png');
+    background-size: cover;
+}
+
+@media screen and (max-width: 10203px) {
+    .navbar-menu a.bus-has-text-white {
+        color: #4a4a4a !important;
+    }
+    .navbar-menu a.bus-has-text-white:hover{
+        color: #3273dc !important;
+    }
+}
