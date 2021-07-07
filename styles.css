@@ -1,0 +1,10 @@
+#hero {
+background: url('assets/img (2).jpg');
+height: 1079px;
+background-position-x: center;
+background-size: cover;
+}
+
+#hero .navbar-is-transperent {
+    background-color: transparent;  
+} 
